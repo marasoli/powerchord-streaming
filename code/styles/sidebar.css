@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: "Russo One", sans-serif;
+}
+
+body {
+    background: url(/assets/images/covers/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
+/* --- ASIDE --- */
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    width: 300px;
+}
+
+.aside-nav, .aside-library {
+    background-color: #121212e0;
+    border-radius: 8px;
+    padding: 12px;
+    color: #b3b3b3;
+}
+
+.logo img {
+    width: 120px;
+    padding: 10px 0 0 10px;
+}
+
+aside nav ul {
+    padding: 10px;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    line-height: 1.5;
+    color: #b3b3b3;
+}
+
+aside nav ul li a:hover,
+.library-content button:hover,
+.library-content span:hover {
+    color: white;
+}
+
+/* --- LIBRARY --- */
+.aside-library {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.library-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.library-content button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.library-section {
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.library-playlist button {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: #121212;
+    padding: 10px;
+    margin: 6px;
+}
+
+.library-playlist button:hover {
+    transform: scale(1.04);
+    color: #6B0000;
+}
+
+.text {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.subtitle {
+    color: #b3b3b3;
+}
+
+.link-general {
+    margin: 10px 0 0 15px;
+}
+
+.link-general a {
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 2.0;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.link-cookies {
+    margin: 10px 0 30px 15px;
+}
+
+.link-cookies a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link-cookies a:hover {
+    text-decoration: underline;
+}
+
+.library-languages button {
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px 8px 5px 0;
+    margin: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.library-languages button:hover {
+    border: 2px solid white;
+}

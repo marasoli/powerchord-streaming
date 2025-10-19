@@ -1,0 +1,174 @@
+main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px 10px 100px 320px;
+    box-sizing: border-box;
+}
+
+/* --- HEADER --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212e0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.header-nav button {
+    background-color: #6B0000;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    width: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-nav .fa-chevron-left:active {
+    animation: slideEffectLeft 0.3s ease-in-out;
+}
+
+@keyframes slideEffectLeft {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.header-nav .fa-chevron-right:active {
+    animation: slideEffectRight 0.3s ease-in-out;
+}
+
+@keyframes slideEffectRight {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 360px;
+}
+
+.header-search input {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 35px 8px 8px;
+    color: white;
+    outline: none;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 5px;
+}
+
+.header-login button {
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.subscribe {
+    background-color: white;
+    border: 1px solid #6B0000;
+    color: #6B0000;
+}
+
+.login {
+    background-color: #6B0000;
+    border: 1px solid white;
+    color: white;
+}
+
+.header-login button:hover {
+    transform: scale(1.10);
+}
+
+/* --- MAIN CARD --- */
+.main-card {
+    background-color: #121212e0;
+    border-radius: 8px;
+    padding: 24px;
+    height: 80%;
+}
+
+.greetings h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.greetings h2 {
+    font-size: 24px;
+    color: #b3b3b3;
+}
+
+.card-scroll {
+    max-height: 60vh;
+    height: 80%;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+.card-scroll::-webkit-scrollbar {
+    width: 0px;
+}
+
+.card-scroll::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.card-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.card-grid img {
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    height: 160px;
+}
+
+.card {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card span {
+    position: absolute;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.card01 { background-color: rgb(0, 100, 80); }
+.card02 { background-color: rgb(132, 0, 231); }
+.card03 { background-color: rgb(30, 50, 100); }
+.card04 { background-color: rgb(140, 25, 50); }
+.card05 { background-color: rgb(232, 17, 17); }
+.card06 { background-color: rgb(83, 122, 161); }
+.card07 { background-color: rgb(142, 102, 172); }
+.card08 { background-color: rgb(20, 138, 8); }
+.card09 { background-color: rgb(30, 50, 100); }
+.card10 { background-color: rgb(233, 20, 41); }
+.card11 { background-color: rgb(80, 55, 80); }
+.card12 { background-color: rgb(216, 64, 0); }
+.card13 { background-color: rgb(186, 93, 7); }
+.card14 { background-color: rgb(0, 30, 80); }
+.card15 { background-color: rgb(60, 30, 80); }
