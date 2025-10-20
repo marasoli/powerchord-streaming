@@ -3,9 +3,9 @@ O PowerChord é um projeto desenvolvido durante a _[#imersao-front-end-alura](ht
 
 ### 🎸 Funcionalidades
 - Interface inspirada no Spotify, redesenhada para o universo do rock
-- Links de acesso e atalhos de playlists na barra lateral
 - Página inicial com seção de destaque de playlists
-- Informações da música, player e opções de áudio
+- Layout para desktop responsivo com grid
+- Animações interativas aplicadas a botões e links utilizando `hover`, `@keyframes` e `JavaScript`
 
 ### 🖥️ Tecnologias utilizadas
 - HTML5, CSS3 e JS

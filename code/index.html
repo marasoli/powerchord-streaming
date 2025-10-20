@@ -6,10 +6,12 @@
     <title>PowerChord - Radio Rock</title>
 
     <link rel="shortcut icon" href="/assets/images/logo/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <script src="scripts/script.js" defer></script>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -21,63 +23,64 @@
 
 <body>
     <div class="container">
-        <aside>
-            <nav class="aside-nav">
-                <div class="logo">
+        <nav>
+            <div class="logo">
+                <a href="">
+                    <img src="/assets/images/logo/logo.png" alt="Logo Power Chord">
+                </a>
+            </div>
+
+            <ul>
+                <li>
                     <a href="">
-                        <img src="/assets/images/logo/logo.png" alt="Logo Power Chord">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Início</span>
                     </a>
-                </div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa-solid fa-house"></span>
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa-solid fa-compass"></span>
-                            <span>Explorar</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa-solid fa-radio"></span>
-                            <span>Radio</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
- 
-            <div class="aside-library">
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-compass"></i>
+                        <span>Explorar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-radio"></i>
+                        <span>Radio</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <aside>
+            <div>
                 <div class="library-content">
-                    <button>
-                        <span class="fa-solid fa-book-skull"></span>
+                    <a href="">
+                        <i class="fa-solid fa-book-skull"></i>
                         <span>Sua biblioteca</span>
-                    </button>
-                    <span class="fa-solid fa-plus"></span>
+                    </a>
+                    <button class="fa-solid fa-plus" title="Criar Playlist"></button>
                 </div>
 
                 <section class="library-section">
-                    <div class="library-playlist">
-                        <span class="text title">Que tal curtir algo novo?</span>
-                        <span class="text subtitle">Crie uma playlist e siga sua radio favorita &#x1F918</span>
-                        <button>
-                            <span>Criar Playlist</span>
-                        </button>
-                        <button>
-                            <span>Seguir Radio</span>
-                        </button>
+                    <span class="title">Que tal curtir algo novo?</span>
+                    <span class="subtitle">Crie uma playlist e siga sua radio favorita &#x1F918</span>
+
+                    <div class="section-button">
+                        <button>Criar Playlist</button>
+                        <button>Seguir Radio</button>
                     </div>
                 </section>
+            </div>
 
-                <div>
+            <div>
+                <div class="library-link">
                     <div class="link-general">
                         <a href="">Segurança e Privacidade</a>
                         <a href="">Acessibilidade</a>
                         <a href="">Sobre o PowerChord</a>
                     </div>
+
                     <div class="link-cookies">
                         <a href="">Cookies</a>
                     </div>
@@ -85,126 +88,126 @@
 
                 <div class="library-languages">
                     <button>
-                        <span class="fa-solid fa-earth-americas"></span>
+                        <i class="fa-solid fa-earth-americas"></i>
                         <span>Português do Brasil</span>
                     </button>
                 </div>
             </div>
         </aside>
 
+        <header>
+            <div class="header-chevron">
+                <button class="fa-solid fa-chevron-left"></button>
+                <button class="fa-solid fa-chevron-right"></button>
+            </div>
+
+            <div class="header-search">
+                <input id="search-input" type="text" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="O que você quer ouvir?" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="header-login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+            </div>
+        </header>
+
         <main>
-            <header>
-                <div class="header-nav">
-                    <button class="fa-solid fa-chevron-left"></button>
-                    <button class="fa-solid fa-chevron-right"></button>
-                </div>
-
-                <div class="header-search">
-                    <input id="search-ipt" type="text" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="O que você quer ouvir?" value=""/>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-
-                <div class="header-login">
-                    <button class="subscribe">Inscreva-se</button>
-                    <button class="login">Entrar</button>
-                </div>
-            </header>
-
-            <div class="main-card">
+            <div>
                 <div class="greetings">
-                    <h1 id="greet">Boas vindas</h1>
-                    <h2 id="guide">Navegar pelas playlists populares</h2>
+                    <h1>Boas vindas</h1>
+                    <h2>Navegar pelas playlists populares</h2>
                 </div>
 
                 <div class="card-scroll">
                     <section class="card-grid">
-                        <a href="" class="card">
-                            <div class="card card01">
-                                <img src="/assets/images/covers/01.jpg" alt=""/>
+                        <a href="">
+                            <div class="card01">
+                                <img src="/assets/images/covers/01.jpg" />
                                 <span>Rock Legends</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card02">
-                                <img src="/assets/images/covers/02.jpg" alt=""/>
+                        <a href="">
+                            <div class="card02">
+                                <img src="/assets/images/covers/02.jpg" />
                                 <span>Rock Anthems</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card03">
-                                <img src="/assets/images/covers/03.jpg" alt=""/>
+                        <a href="">
+                            <div class="card03">
+                                <img src="/assets/images/covers/03.jpg" />
                                 <span>Rock Ballads</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card04">
-                                <img src="/assets/images/covers/04.jpg" alt=""/>
+                        <a href="">
+                            <div class="card04">
+                                <img src="/assets/images/covers/04.jpg" />
                                 <span>Classic Rock</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card05">
-                                <img src="/assets/images/covers/05.jpg" alt=""/>
+                        <a href="">
+                            <div class="card05">
+                                <img src="/assets/images/covers/05.jpg" />
                                 <span>Hard Rock</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card06">
-                                <img src="/assets/images/covers/06.jpg" alt=""/>
+                        <a href="">
+                            <div class="card06">
+                                <img src="/assets/images/covers/06.jpg" />
                                 <span>Workout Rock</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card07">
-                                <img src="/assets/images/covers/07.jpg" alt=""/>
+                        <a href="">
+                            <div class="card07">
+                                <img src="/assets/images/covers/07.jpg" />
                                 <span>Epics Riffs</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card08">
-                                <img src="/assets/images/covers/08.jpg" alt=""/>
+                        <a href="">
+                            <div class="card08">
+                                <img src="/assets/images/covers/08.jpg" />
                                 <span>Rock & Beer</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card09">
-                                <img src="/assets/images/covers/09.jpg" alt=""/>
+                        <a href="">
+                            <div class="card09">
+                                <img src="/assets/images/covers/09.jpg" />
                                 <span>Gothic</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card10">
-                                <img src="/assets/images/covers/10.jpg" alt=""/>
+                        <a href="">
+                            <div class="card10">
+                                <img src="/assets/images/covers/10.jpg" />
                                 <span>Post-Hardcore</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card11">
-                                <img src="/assets/images/covers/11.jpg" alt=""/>
+                        <a href="">
+                            <div class="card11">
+                                <img src="/assets/images/covers/11.jpg" />
                                 <span>Adrenaline</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card12">
-                                <img src="/assets/images/covers/12.jpg" alt=""/>
+                        <a href="">
+                            <div class="card12">
+                                <img src="/assets/images/covers/12.jpg" />
                                 <span>Hard & Heavy</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card13">
-                                <img src="/assets/images/covers/13.jpg" alt=""/>
+                        <a href="">
+                            <div class="card13">
+                                <img src="/assets/images/covers/13.jpg" />
                                 <span>Midnight Metal</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card14">
-                                <img src="/assets/images/covers/14.jpg" alt=""/>
+                        <a href="">
+                            <div class="card14">
+                                <img src="/assets/images/covers/14.jpg" />
                                 <span>Metal Warriors</span>
                             </div>
                         </a>
-                        <a href="" class="card">
-                            <div class="card card15">
-                                <img src="/assets/images/covers/15.jpg" alt=""/>
+                        <a href="">
+                            <div class="card15">
+                                <img src="/assets/images/covers/15.jpg" />
                                 <span>Headbanger's</span>
                             </div>
                         </a>
@@ -212,44 +215,44 @@
                 </div>
             </div>
         </main>
-    </div>
-    
-    <footer>
-        <div class="player-container">
+
+        <footer>
             <div class="audio-info">
+                <img src="/assets/images/covers/00.png" alt="Cover">
+
                 <div>
-                    <span>Banda</span>
-                    <span>-</span>
-                    <span>Nome da Música</span>
-                    <span>●</span>
-                    <span>Album</span>
-                </div>
-                <div class="audio-add">
-                    <button class="fa-solid fa-star"></button>
-                    <button class="fa-solid fa-plus"></button>
+                    <div class="info-music">
+                        <span>Nome da Música</span>
+                        <button class="fa-solid fa-star" id="favorite-button" title="Adicionar aos Favoritos"></button>
+                        <button class="fa-solid fa-plus" id="playlist-add" title="Adicionar à Playlist"></button>
+                    </div>
+
+                    <div class="info-band">
+                        <span>Banda</span>
+                        <span>● Album</span>
+                    </div>
                 </div>
             </div>
 
             <div class="audio-player">
-                <div>
+                <div class="player-button">
                     <button class="fa-solid fa-backward-step"></button>
-                    <button class="fa-solid fa-play"></button>
+                    <button class="fa-solid fa-circle-play" id="play-button"></button>
                     <button class="fa-solid fa-forward-step"></button>
                 </div>
-                <div>
-                    <input id="progress-bar" type="range" value="0" step="1">
-                </div>
-                <div>
-                    <span>0:00</span>
+
+                <div class="player-slider">
+                    <input type="range" value="0" step="1">
+                    <span id="time-display">0:00</span>
                 </div>
             </div>
 
             <div class="audio-options">
-                <button class="fa-solid fa-volume-high"></button>
-                <button class="fa-solid fa-wave-square"></button>
-                <button class="fa-solid fa-bars"></button>
+                <button class="fa-solid fa-volume-high" title="Volume"></button>
+                <button class="fa-solid fa-wave-square" title="Equalizador"></button>
+                <button class="fa-solid fa-bars" title="Fila"></button>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
