@@ -25,6 +25,6 @@ npm run server
 ## Screenshots
 <div>
     <h3>Home - Search Result</h3>
-    <img width="400" src="/assets/screenshots/home.png" />
-    <img width="400" src="/assets/screenshots/search.png" />
+    <img width="400" src="./assets/screenshots/home.png" />
+    <img width="400" src="./assets/screenshots/search.png" />
 </div>
