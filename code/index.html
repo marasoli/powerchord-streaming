@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/search.js" defer></script>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -46,7 +47,7 @@
                 <li>
                     <a href="">
                         <i class="fa-solid fa-radio"></i>
-                        <span>Radio</span>
+                        <span>Rádio</span>
                     </a>
                 </li>
             </ul>
@@ -113,105 +114,82 @@
         </header>
 
         <main>
-            <div>
+            <div class="seggested-playlists">
                 <div class="greetings">
                     <h1>Boas vindas</h1>
                     <h2>Navegar pelas playlists populares</h2>
                 </div>
 
-                <div class="card-scroll">
-                    <section class="card-grid">
-                        <a href="">
-                            <div class="card01">
-                                <img src="/assets/images/covers/01.jpg" />
-                                <span>Rock Legends</span>
-                            </div>
+                <div class="playlists-scroll">
+                    <section class="playlists-grid">
+                        <a href="" class="card01">
+                            <img src="/assets/images/covers/01.jpg" />
+                            <span>Rock Legends</span>
                         </a>
-                        <a href="">
-                            <div class="card02">
-                                <img src="/assets/images/covers/02.jpg" />
-                                <span>Rock Anthems</span>
-                            </div>
+                        <a href="" class="card02">
+                            <img src="/assets/images/covers/02.jpg" />
+                            <span>Rock Anthems</span>
                         </a>
-                        <a href="">
-                            <div class="card03">
-                                <img src="/assets/images/covers/03.jpg" />
-                                <span>Rock Ballads</span>
-                            </div>
+                        <a href="" class="card03">
+                            <img src="/assets/images/covers/03.jpg" />
+                            <span>Rock Ballads</span>
                         </a>
-                        <a href="">
-                            <div class="card04">
-                                <img src="/assets/images/covers/04.jpg" />
-                                <span>Classic Rock</span>
-                            </div>
+                        <a href="" class="card04">
+                            <img src="/assets/images/covers/04.jpg" />
+                            <span>Classic Rock</span>
                         </a>
-                        <a href="">
-                            <div class="card05">
-                                <img src="/assets/images/covers/05.jpg" />
-                                <span>Hard Rock</span>
-                            </div>
+                        <a href="" class="card05">
+                            <img src="/assets/images/covers/05.jpg" />
+                            <span>Hard Rock</span>
                         </a>
-                        <a href="">
-                            <div class="card06">
-                                <img src="/assets/images/covers/06.jpg" />
-                                <span>Workout Rock</span>
-                            </div>
+                        <a href="" class="card06">
+                            <img src="/assets/images/covers/06.jpg" />
+                            <span>Workout Rock</span>
                         </a>
-                        <a href="">
-                            <div class="card07">
-                                <img src="/assets/images/covers/07.jpg" />
-                                <span>Epics Riffs</span>
-                            </div>
+                        <a href="" class="card07">
+                            <img src="/assets/images/covers/07.jpg" />
+                            <span>Epics Riffs</span>
                         </a>
-                        <a href="">
-                            <div class="card08">
-                                <img src="/assets/images/covers/08.jpg" />
-                                <span>Rock & Beer</span>
-                            </div>
+                        <a href="" class="card08">
+                            <img src="/assets/images/covers/08.jpg" />
+                            <span>Rock & Beer</span>
                         </a>
-                        <a href="">
-                            <div class="card09">
-                                <img src="/assets/images/covers/09.jpg" />
-                                <span>Gothic</span>
-                            </div>
+                        <a href="" class="card09">
+                            <img src="/assets/images/covers/09.jpg" />
+                            <span>Gothic</span>
                         </a>
-                        <a href="">
-                            <div class="card10">
-                                <img src="/assets/images/covers/10.jpg" />
-                                <span>Post-Hardcore</span>
-                            </div>
+                        <a href="" class="card10">
+                            <img src="/assets/images/covers/10.jpg" />
+                            <span>Post-Hardcore</span>
                         </a>
-                        <a href="">
-                            <div class="card11">
-                                <img src="/assets/images/covers/11.jpg" />
-                                <span>Adrenaline</span>
-                            </div>
+                        <a href="" class="card11">
+                            <img src="/assets/images/covers/11.jpg" />
+                            <span>Adrenaline</span>
                         </a>
-                        <a href="">
-                            <div class="card12">
-                                <img src="/assets/images/covers/12.jpg" />
-                                <span>Hard & Heavy</span>
-                            </div>
+                        <a href="" class="card12">
+                            <img src="/assets/images/covers/12.jpg" />
+                            <span>Hard & Heavy</span>
                         </a>
-                        <a href="">
-                            <div class="card13">
-                                <img src="/assets/images/covers/13.jpg" />
-                                <span>Midnight Metal</span>
-                            </div>
+                        <a href="" class="card13">
+                            <img src="/assets/images/covers/13.jpg" />
+                            <span>Midnight Metal</span>
                         </a>
-                        <a href="">
-                            <div class="card14">
-                                <img src="/assets/images/covers/14.jpg" />
-                                <span>Metal Warriors</span>
-                            </div>
+                        <a href="" class="card14">
+                            <img src="/assets/images/covers/14.jpg" />
+                            <span>Metal Warriors</span>
                         </a>
-                        <a href="">
-                            <div class="card15">
-                                <img src="/assets/images/covers/15.jpg" />
-                                <span>Headbanger's</span>
-                            </div>
+                        <a href="" class="card15">
+                            <img src="/assets/images/covers/15.jpg" />
+                            <span>Headbanger's</span>
                         </a>
                     </section>
+                </div>
+            </div>
+
+            <div class="search-result hidden">
+                <h3 class="title">Artistas</h3>
+                <div class="artists-grid">
+                    <div class="artists-card"></div>
                 </div>
             </div>
         </main>
@@ -221,7 +199,7 @@
                 <img src="/assets/images/covers/00.png" alt="Cover">
 
                 <div>
-                    <div class="info-music">
+                    <div class="info-song">
                         <span>Nome da Música</span>
                         <button class="fa-solid fa-star" id="favorite-button" title="Adicionar aos Favoritos"></button>
                         <button class="fa-solid fa-plus" id="playlist-add" title="Adicionar à Playlist"></button>
@@ -229,7 +207,7 @@
 
                     <div class="info-band">
                         <span>Banda</span>
-                        <span>● Album</span>
+                        <span>● Álbum</span>
                     </div>
                 </div>
             </div>
@@ -242,7 +220,7 @@
                 </div>
 
                 <div class="player-slider">
-                    <input type="range" value="0" step="1">
+                    <input id="range" type="range" value="0" step="1" min="0" max="200">
                     <span id="time-display">0:00</span>
                 </div>
             </div>

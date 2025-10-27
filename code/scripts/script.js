@@ -1,11 +1,10 @@
-// FAVORITE BUTTON
+// FOOTER MUSIC PLAYER
 const btnFavorite = document.querySelector('#favorite-button')
 
 btnFavorite.addEventListener('click', () => {
     btnFavorite.classList.toggle('active')
 })
 
-// ADD BUTTON
 const btnAddPlaylist = document.querySelector('#playlist-add')
 let isCheck = false
 
@@ -21,9 +20,8 @@ btnAddPlaylist.addEventListener('click', () => {
     }
 })
 
-// PLAY BUTTON
 const btnPlay = document.querySelector('#play-button')
-let isPlaying = true
+let isPlaying = false
 
 btnPlay.addEventListener('click', () => {
     isPlaying = !isPlaying
@@ -35,4 +33,18 @@ btnPlay.addEventListener('click', () => {
         btnPlay.classList.remove('fa-circle-pause')
         btnPlay.classList.add('fa-circle-play')
     }
+})
+
+const range = document.querySelector('#range')
+const timeDisplay = document.querySelector('#time-display')
+
+range.addEventListener('input', () => {
+    const seconds = parseInt(range.value)
+
+    const minutes = Math.floor(seconds / 60)
+    const remainingSeconds = seconds % 60
+
+    const formatted = `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`
+
+    timeDisplay.textContent = formatted
 })

@@ -1,0 +1,124 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "band": "AC/DC",
+            "genre": "Hard Rock",
+            "urlImg": "https://imgs.search.brave.com/6C3RX2u-_m2exff9g22wtFfl0tIpl8MmqQCD-vJD3X4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YXJ0cGhvdG9saW1p/dGVkLmNvbS9pbWFn/ZXMvNjAyMTNlMjVi/ZDQwYjgzZWM3ODMy/ZmQ1LzMwMHgzMDAv/YWMtZGMtc3R1ZGlv/LXNob290LWluLXVr/LTE5NzYuanBn"
+        },
+        {
+            "id": 2,
+            "band": "Black Sabbath",
+            "genre": "Heavy Metal",
+            "urlImg": "https://imgs.search.brave.com/YOK-Zptk0aojfTJ5pwJVusqv3Sb5U2zFAcFxGpCqP_M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/LzVlNGI3ZjI4NmNi/MmQwYWVmOGU3ZDRm/YjQ3ZGZlN2Uw"
+        },
+        {
+            "id": 3,
+            "band": "Creedence Clearwater Revival",
+            "genre": "Swamp Rock",
+            "urlImg": "https://imgs.search.brave.com/h9mK79jV0PCbv8xiK4aLNIhR-Sardk6u4JHrYHinAIs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lLnNu/bWMuaW8vaS82MDAv/cy85YzY5M2NhYWMx/MjRiODI0NDU3Yjlj/N2YzOWI4ZjBhMS8x/MDQzOTQ5NS9jcmVl/ZGVuY2UtY2xlYXJ3/YXRlci1yZXZpdmFs/LXBlbmR1bHVtLWNv/dmVyLWFydC5qcGc"
+        },
+        {
+            "id": 4,
+            "band": "Deep Purple",
+            "genre": "Hard Rock",
+            "urlImg": "https://imgs.search.brave.com/DpzrF-bYP6kIFpgFZzcAqYMPzezEHknxyenu0cLCVdA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNzQy/NjAzNzIvcGhvdG8v/dW5zcGVjaWZpZWQt/cGhvdG8tb2YtZGVl/cC1wdXJwbGUtcGhv/dG8tYnktbWljaGFl/bC1vY2hzLWFyY2hp/dmVzLWdldHR5LWlt/YWdlcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9eGlEeGl6/X2VCWmV5ZFNKZW5R/OVlYNm1lTlozQlpS/OGF1dW5pRGF5R2p5/OD0"
+        },
+        {
+            "id": 5,
+            "band": "Evanescence",
+            "genre": "Gothic Rock",
+            "urlImg": "https://imgs.search.brave.com/v3xWhPMK6v_Z1ZPN7sacMBwasnIkLijEPIrXY5l0aSk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmlo/ZWFydC5jb20vdjMv/Y2F0YWxvZy9hcnRp/c3QvODk2ODQ_b3Bz/PWZpdCg3MjAsNzIw/KQ"
+        },
+        {
+            "id": 6,
+            "band": "Foo Fighters",
+            "genre": "Post-Grunge",
+            "urlImg": "https://imgs.search.brave.com/HaXCfc7hDyLki42EgrK3b0n7lop5zL-orvUVR7jypY8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/L2RmMzFkNzExN2M4/MjBhMDZiMWZkMDc3/M2RjZTg5ZDRi"
+        },
+        {
+            "id": 7,
+            "band": "Green Day",
+            "genre": "Punk Rock",
+            "urlImg": "https://imgs.search.brave.com/EXLTuVi5TqTf7IfGXOvchsS-AkskitdiQG5JAAzgqis/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmFnYWx1bWUuY29t/LmJyL2dyZWVuLWRh/eS9pbWFnZXMvZ3Jl/ZW4tZGF5LndlYnA"
+        },
+        {
+            "id": 8,
+            "band": "Imagine Dragons",
+            "genre": "Alternative Rock",
+            "urlImg": "https://imgs.search.brave.com/Xjn7A8nMYqlYkOy17rOat2-T316VC8VnEN3ODKP0AKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXZlbnRpbS5jb20u/YnIvb2JqL21lZGlh/L0JSLWV2ZW50aW0v/Z2FsZXJ5LzIyMngy/MjIvaS9ldmVudGlt/LWltYWdpbmUtZHJh/Z29ucy1iaW8tcHJv/ZmlsZS5qcGVn"
+        },
+        {
+            "id": 9,
+            "band": "Korn",
+            "genre": "Nu Metal",
+            "urlImg": "https://imgs.search.brave.com/dMICttRUfGy1gRWA8-7el5uQhJm6puOE5IAArIrWutw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/L2M4Mzk4OTAxOGM5/YzhhZWZhN2FiMDFk/MDZlZjYwYTMw"
+        },
+        {
+            "id": 10,
+            "band": "Led Zeppelin",
+            "genre": "Hard Rock",
+            "urlImg": "https://imgs.search.brave.com/5eKmnQwf0oPAWWyyrbqn5id3vh3mqVK_yiQ-RHWkpYg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9pbWFnZXMt/cHJvZmlsZS1mbG93/LzQwMC9pbWFnZXMv/YXJ0d29ya2ltYWdl/cy9tZWRpdW1sYXJn/ZS8yL2xlZC16ZXBw/ZWxpbi1ncm91cC1w/b3J0cmFpdC1hdC1j/aGF0ZWF1LW1hcm1v/bnQtamF5LXRob21w/c29uLmpwZw"
+        },
+        {
+            "id": 11,
+            "band": "Matanza",
+            "genre": "Hardcore Punk",
+            "urlImg": "https://imgs.search.brave.com/gnB2z1xJfFX21j9UXmhJF5dcaveG9Unj1hZNvXpnqGY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXZlbnRpbS5jb20u/YnIvb2JqL21lZGlh/L0JSLWV2ZW50aW0v/Z2FsZXJ5LzIyMngy/MjIvbS9tYXRhbnph/cml0dWFsX2V2ZW50/aW1fbGluZXVwX2Fy/dGlzdGEuanBn"
+        },
+        {
+            "id": 12,
+            "band": "Nivarna",
+            "genre": "Grunge",
+            "urlImg": "https://imgs.search.brave.com/_f7lUWfR9wODMecNnPKFHiOKPNxF7p9yxPI1L8_uaq4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/d2hhdHMtdGhlLWdv/b2ZpZXN0LXBob3Rv/LXlvdS1oYXZlLW9m/LW5pcnZhbmEtb3It/aXRzLW1lbWJlcnMt/djAtMWZhdWVmMzhm/dm5lMS5qcGVnP3dp/ZHRoPTY0MCZmb3Jt/YXQ9cGpwZyZhdXRv/PXdlYnAmcz04ZTQ5/M2E1OGMwMDZjMzgy/Y2I3Y2NlYzVlY2Zm/OGM1MmMwNjk3NGY2"
+        },
+        {
+            "id": 13,
+            "band": "Oasis",
+            "genre": "Alternative Rock",
+            "urlImg": "https://imgs.search.brave.com/ZJIYf8f_OSi9FL6_6yopkqjADAIXENSm-iiWS_vTWWM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cm9ja2FyY2hpdmUu/Y29tL21lZGlhLzQ5/OTkvb2FzaXMtb2Ew/OTNqZi1nbGFzdG9u/YnVyeS0xOTk1Lmpw/Zz9hbmNob3I9Y2Vu/dGVyJm1vZGU9Y3Jv/cCZ3aWR0aD04MDAm/aGVpZ2h0PTgwMCZy/bmQ9MTMzNzA2MjA5/ODQwMDAwMDAwJm92/ZXJsYXk9d2F0ZXJt/YXJrLnBuZyZvdmVy/bGF5LnNpemU9MjMw/LDIwJm92ZXJsYXku/cG9zaXRpb249MCw3/ODA"
+        },
+        {
+            "id": 14,
+            "band": "Pink Floyd",
+            "genre": "Progressive Rock",
+            "urlImg": "https://imgs.search.brave.com/7vrebduBMPyaggKWJ1zOft4UWAczki4-xHgyUcQ1M8E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODU1/MTMzNzIvZnIvcGhv/dG8vdW5pdGVkLWtp/bmdkb20tcGhvdG8t/b2Ytcmljay13cmln/aHQtYW5kLXBpbmst/ZmxveWQtYW5kLXN5/ZC1iYXJyZXR0LWFu/ZC1yb2dlci13YXRl/cnMtYmFjay1sLXIu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWxxOFlqeGtURkwz/UHlGU0ktR3YxbUJy/d0tSQ0dIUjM5QjdQ/aGd6RGFJS2s9"
+        },
+        {
+            "id": 15,
+            "band": "Queen",
+            "genre": "Glam Rock",
+            "urlImg": "https://imgs.search.brave.com/63Z5K8DNj1Tw6CfmXYC7Rxz9qgnErenLMO_FuDaowYA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/LzA3MzU4YTg3OGZh/Njk5ZjE1ZjExNDA4/ZTBmNTJhZTMx"
+        },
+        {
+            "id": 16,
+            "band": "Red Hot Chili Peppers",
+            "genre": "Funk Rock",
+            "urlImg": "https://imgs.search.brave.com/GZvyzcN6R7qFbO-U5fnJAWzarI1Kfb0VeA2Kaz-zt2A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/L2MzMzQzM2UwOTQ2/NDJkMGE1Njk3YWYw/MjFiMDJkOTA2"
+        },
+        {
+            "id": 17,
+            "band": "Scorpions",
+            "genre": "Hard Rock",
+            "urlImg": "https://imgs.search.brave.com/pbxOsHSoKiksBsSvp0MF0WCc-nyNwtujxxM_iIxqcAo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/L2Y2YWQ4OWMzYmIw/NTIyM2VkMWY3MWY3/ZjYzMzAyMWI3"
+        },
+        {
+            "id": 18,
+            "band": "The Rolling Stones",
+            "genre": "Blues Rock",
+            "urlImg": "https://imgs.search.brave.com/asDLoW_YnioTg9sXl0yRs5ZFQd-lUACfXKK5DTZOPyg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cm9ja2FyY2hpdmUu/Y29tL21lZGlhLzE1/MTIvdGhlLXJvbGxp/bmctc3RvbmVzLXJz/MDA1ZWEuanBnP2Ny/b3A9MC4wNjQ0MzU1/NTU1NTU1NTU1NjUs/MCwwLjI3NjU2NDQ0/NDQ0NDQ0NDM5LDAm/Y3JvcG1vZGU9cGVy/Y2VudGFnZSZ3aWR0/aD04MDAmaGVpZ2h0/PTgwMCZybmQ9MTMx/MTc1MDE4NTQwMDAw/MDAwJm92ZXJsYXk9/d2F0ZXJtYXJrLnBu/ZyZvdmVybGF5LnNp/emU9MjMwLDIwJm92/ZXJsYXkucG9zaXRp/b249MCw3ODA"
+        },
+        {
+            "id": 19,
+            "band": "Van Halen",
+            "genre": "Heavy Metal",
+            "urlImg": "https://imgs.search.brave.com/KQZiY_NE35aZ6A99yBpgDr9QNb9I4Lirtbi-tPfJynQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZXF1aXBib2Fy/ZC5jb20vdXBsb2Fk/cy9ncm91cC9pbWFn/ZS8zNjcvdmFuLWhh/bGVuLWJpZy5qcGc"
+        },
+        {
+            "id": 20,
+            "band": "Whitesnake",
+            "genre": "Hard Rock",
+            "urlImg": "https://imgs.search.brave.com/FfkRNJU3R7gZodVutPzyzN2i7zgb8qv1fHu5MvCY2lw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI2/NDA3OTY3OS9waG90/by93aGl0ZXNuYWtl/LXN1cGVyLXJvY2st/ODQtcGhvdG8tc2hv/b3QtaW4tbmFnb3lh/LWphcGFuLWF1Z3Vz/dC0xOTg0LW5laWwt/bXVycmF5LWpvaG4t/c3lrZXMtZGF2aWQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWlfV2phRW5QNzNa/bFc5Unh1bHNyaU5f/TVFsNUkwX0YtY0tM/cnc4RHV3Mkk9"
+        }
+    ]
+}

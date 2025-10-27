@@ -1,36 +1,37 @@
+/* --- MAIN PLAYLISTS --- */
 .greetings h1 {
     color: white;
 }
 
-.card-scroll {
+.playlists-scroll {
     overflow-y: auto;
     max-height: 60vh;
     margin: 20px;
 }
 
-.card-scroll::-webkit-scrollbar {
+.playlists-scroll::-webkit-scrollbar {
     width: 0px;
 }
 
-.card-grid {
+.playlists-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 16px;
     justify-items: center;
 }
 
-.card-grid a {
+.playlists-grid a {
     overflow: hidden;
     width: 220px;
     border-radius: 8px;
 }
 
-.card-grid img {
+.playlists-grid img {
     width: 220px;
     height: 160px;
 }
 
-.card-grid span {
+.playlists-grid span {
     color: white;
     font-size: 20px;
     margin-left: 14px;
@@ -51,3 +52,98 @@
 .card13 { background-color: #3c0366; }
 .card14 { background-color: #510424; }
 .card15 { background-color: #72655E; }
+
+/* --- MAIN SEARCH RESULT --- */
+.search-result {
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+.search-result::-webkit-scrollbar {
+    width: 0px;
+}
+
+.artists-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.artists-card {
+    position: relative;
+    isolation: isolate;
+    background: #181818;
+    border-radius: 8px;
+    padding: 16px;
+
+    transition: background-color 0.6s ease;
+}
+
+.artists-card:hover {
+    background-color: #252525;
+}
+
+.artists-card:hover .card-img .fa-shuffle {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-img {
+    position: relative;
+    padding-bottom: 100%;
+    margin-bottom: 16px;
+}
+
+.card-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-img .fa-shuffle {
+    position: absolute;
+    right: 4px;
+    top: 80%;
+
+    background-color: #005CC8;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 100%;
+    padding: 14px;
+    opacity: 0;
+
+    transition: all ease 0.4s;
+}
+
+.card-img .fa-shuffle:hover {
+    padding: 16px;
+}
+
+.card-img .fa-shuffle:active {
+    padding: 10px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.artist-name {
+    color: white;
+    font-size: 18px;
+}
+
+.musical-genre {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+@keyframes scrollText {
+    0% { transform: translateX(5%); }
+    100% { transform: translateX(-100%); }
+}

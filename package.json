@@ -1,0 +1,21 @@
+{
+  "name": "powerchord-streaming",
+  "version": "1.1.1",
+  "scripts": {
+    "server": "json-server --watch code/scripts/artists.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marasoli/powerchord-streaming.git"
+  },
+  "keywords": ["music", "rock", "spotify", "frontend", "html", "css", "javascript"],
+  "author": "Mariana Rafaela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marasoli/powerchord-streaming/issues"
+  },
+  "homepage": "https://github.com/marasoli/powerchord-streaming#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

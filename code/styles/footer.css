@@ -14,18 +14,18 @@ footer {
     margin-right: 12px;
 }
 
-.info-music span {
+.info-song span {
     color: white;
     margin-right: 8px;
 }
 
-.info-music button {
+.info-song button {
     background-color: transparent;
     border: none;
     color: white;
 }
 
-.info-music .fa-star.active {
+.info-song .fa-star.active {
     color: #0077ff;
 }
 
@@ -57,7 +57,7 @@ footer {
 }
 
 .fa-backward-step, .fa-forward-step {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .fa-backward-step:active {
@@ -88,12 +88,13 @@ footer {
 .player-slider input {
     cursor: pointer;
     height: 4px;
-    margin-right: 8px;
+    margin-right: 4px;
 }
 
 .player-slider span {
     font-size: 12px;
     color: white;
+    width: 40px;
 }
 
 .audio-options button {
